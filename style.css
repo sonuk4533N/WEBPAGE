@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+
+	background: url(bg2.jpg);
+	color: white;
+	margin: 0px;
+    padding: 0px;
+	font-family: 'Poppins', sans-serif;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 80px;
+	background-color: rgb(18, 18, 62);
+}
+
+nav ul{
+	display: flex;
+	justify-content: center;
+}
+
+nav ul li{
+	list-style: none;
+	margin: 0px 23px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+}
+
+nav ul li a:hover{
+	color: rgb(153, 153, 226);
+	font-size: 1.045rem;
+}
+
+.left{
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: yellow;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+    text-align: center;
+}
+
+.purple{
+	color: #ce11f1;
+}
+
+.container{
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+    text-align: center;
+}
+
+
+ .btn {
+          font-family: 'Poppins', sans-serif;
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(31, 30, 30);
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+            text-align: center;
+        }
+
+        .form-group input {
+           font-family: 'Poppins', sans-serif;
+            text-align: center;
+            display: block;
+            width: 100%;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 74%;
+            margin: 20px auto;
+        }
+
+        .container .purple{
+            color: yellow;
+        }
+
